@@ -1,1 +1,1 @@
-pandoc -s --pdf-engine=xelatex -o ReadingRules.pdf Rules.md
+pandoc -s --pdf-engine=xelatex --include-in-header=preamble.tex -o ReadingTheProtagonistGame.pdf Rules.md
